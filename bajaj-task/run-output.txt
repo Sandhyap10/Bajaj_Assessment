@@ -1,0 +1,24 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2025-11-11T11:38:38.637Z  INFO 23053 --- [           main] com.example.demo.App                     : Starting App v1.0-SNAPSHOT using Java 21.0.7 with PID 23053 (/workspaces/Bajaj_Assessment/bajaj-task/target/bajaj-task-1.0-SNAPSHOT.jar started by codespace in /workspaces/Bajaj_Assessment/bajaj-task)
+2025-11-11T11:38:38.647Z  INFO 23053 --- [           main] com.example.demo.App                     : No active profile set, falling back to 1 default profile: "default"
+2025-11-11T11:38:40.279Z  INFO 23053 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-11T11:38:40.299Z  INFO 23053 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-11T11:38:40.302Z  INFO 23053 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-11-11T11:38:40.341Z  INFO 23053 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-11T11:38:40.343Z  INFO 23053 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1552 ms
+2025-11-11T11:38:40.832Z  INFO 23053 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-11T11:38:40.859Z  INFO 23053 --- [           main] com.example.demo.App                     : Started App in 2.885 seconds (process running for 3.593)
+generateWebhook response: {"webhook":"https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA","accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJyZWdObyI6IlBFUzFVRzIyQ1M1MjMiLCJuYW1lIjoiU2FuZGh5YSBQIiwiZW1haWwiOiJzYW5kaHlhcGgxNUBnbWFpbC5jb20iLCJzdWIiOiJ3ZWJob29rLXVzZXIiLCJpYXQiOjE3NjI4NjExMjEsImV4cCI6MTc2Mjg2MjAyMX0.iJ7lI0h4DRoq1c2pO-eaB9rGsEUtvlmCK8YrfCCslps"}
+Webhook -> https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA
+AccessToken -> [REDACTED]
+Submission status: 200 OK
+Submission response body: {"success":true,"message":"Webhook processed successfully"}
